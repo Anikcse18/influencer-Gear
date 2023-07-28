@@ -271,6 +271,42 @@ main{
 }
 
 
+/* Footer section */
+
+footer{
+
+    background-color:  #0A0826;
+    text-align: center;
+}
+.footer-container{
+
+    
+    color: #FFF;
+    margin-top: 100px;
+}
+.footer-title{
+
+    padding-top: 40px ;
+    font-size: 1.5rem;
+    line-height: normal;
+}
+
+.copyright{
+    
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 20px;
+}
+.icon-img{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
 /* Responsive section */
 
 
