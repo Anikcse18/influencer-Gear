@@ -136,12 +136,102 @@ main{
     margin: 0 auto;
     
 }
+
 .sponsar-container{
-    display: flex;
+    display: flex; 
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    
     padding: 20px 0;
+    box-shadow: -4px 0px 24px -15px #888888;  
 }
+
+
+/* Collection section */
+
+.collection{
+
+    max-width: 1050px;
+    margin: 80px auto;
+
+}
+
+.collection-container{
+
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+
+.collection-title{
+
+    color: #3A3A3A;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cart{
+
+    width: 320px;
+    height: 450px;
+
+    padding: 15px;
+    
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+
+    margin: 0 10px 10px 0;
+   
+}
+.cart img{
+
+    width: 100%;
+    height: auto;
+
+}
+.cart-title{
+    color: #18191F;
+    
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+.cart-price{
+
+    color: rgba(0, 0, 0, 0.87);
+    
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 10px 0;
+}
+.cart-details{
+
+    color:  #787885;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 143%; 
+    margin: 10px 0;
+    letter-spacing: 0.252px;
+    
+}
+
+/* Star section */
+.checked{
+
+    color: orange;
+}
+
 
 
 /* Responsive section */
@@ -172,7 +262,12 @@ main{
         flex-direction: column-reverse;
         text-align: center;
     }
-
+    .sponsar-container
+    {
+        flex-wrap: wrap;
+        gap: 20px;
+    
+    }
     
 
 
@@ -198,5 +293,18 @@ main{
         padding: 20px;
     
     }
+    .banner-container{
+
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .sponsar-container
+    {
+        flex-wrap: wrap;
+        gap: 20px;
+    
+    }
+
 
 }
