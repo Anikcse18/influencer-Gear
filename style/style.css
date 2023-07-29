@@ -251,7 +251,6 @@ main{
 .feature-details{
 
     color: #6C6C6C;
-    
     font-style: normal;
     font-size: 0.8rem;
     font-weight: 700;
@@ -274,7 +273,8 @@ main{
 /* Footer section */
 
 footer{
-
+    max-width: auto;
+    margin: 0 auto;
     background-color:  #0A0826;
     text-align: center;
 }
@@ -315,7 +315,7 @@ footer{
     nav, .banner-container, .feature-container{
 
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
     
     }
 
@@ -352,9 +352,12 @@ footer{
     .feature-text{
 
         text-align: center;
-        width: 400px;
+        width: 300px;
     }
-   
+    .feature-container > img{
+            width: 350px;
+
+    }
   
    
 
@@ -408,6 +411,11 @@ footer{
 
         text-align: center;
         width: 400px;
+    }
+    .feature-container > img{
+
+        width: 350px;
+        height: auto;
     }
    
 
